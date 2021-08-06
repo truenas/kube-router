@@ -9,7 +9,7 @@ require (
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v20.10.7+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/protobuf v1.5.2
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/moby/ipvs v1.0.1
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
