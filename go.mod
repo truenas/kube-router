@@ -9,8 +9,7 @@ require (
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v20.10.7+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
-	github.com/golang/protobuf v1.4.3
-	github.com/gorilla/mux v1.8.0 // indirect
+	github.com/golang/protobuf v1.5.2
 	github.com/moby/ipvs v1.0.1
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
@@ -22,13 +21,13 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/vishvananda/netlink v1.1.1-0.20201029203352-d40f9887b852
 	github.com/vishvananda/netns v0.0.0-20210104183010-2eb08e3e575f
-	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
+	golang.org/x/net v0.0.0-20211209124913-491a49abca63
 	google.golang.org/grpc v1.39.0
-	k8s.io/api v0.21.3
-	k8s.io/apimachinery v0.21.3
-	k8s.io/client-go v0.21.3
+	k8s.io/api v0.23.1
+	k8s.io/apimachinery v0.23.1
+	k8s.io/client-go v0.23.1
 	k8s.io/cri-api v0.21.3
-	k8s.io/klog/v2 v2.10.0
+	k8s.io/klog/v2 v2.30.0
 )
 
 replace github.com/containerd/containerd => github.com/containerd/containerd v1.5.4 // CVE-2021-32760
